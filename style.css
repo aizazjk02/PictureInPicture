@@ -7,11 +7,19 @@ html {
 body {
     margin: 0;
     height: 100vh;
+    background-color: rgb(37,37,37);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(37,37,37);
+    flex-direction: column;
 }
+
+p { 
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
 
 .button-container {
     border: 2px solid black;
